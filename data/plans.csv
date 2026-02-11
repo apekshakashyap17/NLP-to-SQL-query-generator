@@ -1,0 +1,5 @@
+plan_id,plan_name,monthly_price,currency,billing_cycle
+1,Basic,20,USD,monthly
+2,Pro,50,USD,monthly
+3,Business,90,USD,monthly
+4,Enterprise,200,USD,monthly
