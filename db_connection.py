@@ -15,7 +15,7 @@ DATABASE_URL = (
 
 engine = create_engine(
     DATABASE_URL,
-    pool_pre_ping=True,  # avoids stale connections
+    pool_pre_ping=True, 
 )
 
 def test_connection():
