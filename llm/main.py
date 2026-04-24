@@ -6,7 +6,7 @@ from llm.sql_generator import generate_sql
 if __name__ == "__main__": 
     question = "How many active subscriptions does each plan have?"
     
-    # Debug: See the SQL first
+ 
     generated_sql = generate_sql(ollama_llm, question)
     print(f"--- DEBUG SQL ---\n{generated_sql}\n-----------------")
     
